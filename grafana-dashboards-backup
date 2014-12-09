@@ -128,7 +128,7 @@ def main():
     metavar = 'ELASTIC_SEARCH_HOST')
 
   parser.add_option('-i', '--index',
-    default = 'grafana-dash'
+    default = 'grafana-dash',
     dest    = 'elastic_index',
     help    = 'The elasticsearch index used by Grafana',
     metavar = 'ELASTIC_INDEX')
